@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>OSICI_Product</AssemblyName>
+    <RootNamespace>OSICI.Product</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <ProjectReference Include="..\Exception\Exception.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Type.cs">
+      <CopyToOutputDirectory> </CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+</Project>
